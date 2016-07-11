@@ -1,0 +1,1134 @@
+2016-06-06 05:16:11,496 FATAL by.epam.port.util.Main [main] JSON parser failed to create 
+2016-06-06 05:17:38,906 INFO  by.epam.port.util.Main [main] Parser has been created successfully 
+2016-06-06 05:17:38,911 INFO  by.epam.port.util.JsonParser [main] Seaport capacity has been read successfully 
+2016-06-06 05:17:38,911 INFO  by.epam.port.util.JsonParser [main] Terminals number has been read successfully 
+2016-06-06 05:17:38,914 ERROR by.epam.port.util.JsonParser [main] Ship cannot be parsed by.epam.port.exception.JsonParserException: Wrong attributes value
+	at by.epam.port.util.JsonParser.parseShip(JsonParser.java:88)
+	at by.epam.port.util.JsonParser.readShipsWithDelay(JsonParser.java:71)
+	at by.epam.port.util.Main.main(Main.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)
+Caused by: by.epam.port.exception.ShipCapacityException: Wrong number of containers
+	at by.epam.port.action.ShipCreator.createShip(ShipCreator.java:12)
+	at by.epam.port.util.JsonParser.parseShip(JsonParser.java:86)
+	... 7 more
+
+2016-06-06 05:17:38,917 INFO  by.epam.port.util.JsonParser [main] Ships have been read 
+2016-06-06 05:17:38,920 INFO  by.epam.port.action.DelayShipRunner [Thread-1] Start sleeping 1000 ms 
+2016-06-06 05:17:38,920 INFO  by.epam.port.action.DelayShipRunner [Thread-2] Start sleeping 3000 ms 
+2016-06-06 05:17:38,921 INFO  by.epam.port.action.DelayShipRunner [Thread-3] Start sleeping 2000 ms 
+2016-06-06 05:17:38,923 INFO  by.epam.port.action.DelayShipRunner [Thread-4] Start sleeping 1500 ms 
+2016-06-06 05:17:38,923 INFO  by.epam.port.action.DelayShipRunner [Thread-5] Start sleeping 2000 ms 
+2016-06-06 05:17:39,935 INFO  by.epam.port.action.DelayShipRunner [Thread-1] Ship goes to harbor
+2016-06-06 05:17:39,936 INFO  by.epam.port.entity.Harbor [Thread-6] Ship{id=1, capacity=90, unloading=90, loading=50} unloading successful
+2016-06-06 05:17:39,938 INFO  by.epam.port.entity.Harbor [Thread-6] Ship{id=1, capacity=90, unloading=0, loading=50} loading successful
+2016-06-06 05:17:39,939 INFO  by.epam.port.entity.Harbor [Thread-6] Ship{id=1, capacity=90, unloading=0, loading=0} handled successfully
+2016-06-06 05:17:39,940 INFO  by.epam.port.action.DelayShipRunner [Thread-1] Ship has finished 
+2016-06-06 05:17:39,950 INFO  by.epam.port.util.HarborRunner [main] Runner finished
+2016-06-06 05:17:40,423 INFO  by.epam.port.action.DelayShipRunner [Thread-4] Ship goes to harbor
+2016-06-06 05:17:40,423 INFO  by.epam.port.entity.Harbor [Thread-7] Ship{id=2, capacity=90, unloading=20, loading=90} unloading successful
+2016-06-06 05:17:40,921 INFO  by.epam.port.action.DelayShipRunner [Thread-3] Ship goes to harbor
+2016-06-06 05:17:40,922 INFO  by.epam.port.entity.Harbor [Thread-8] Ship{id=0, capacity=90, unloading=90, loading=80} unloading successful
+2016-06-06 05:17:40,922 INFO  by.epam.port.entity.Harbor [Thread-7] Ship{id=2, capacity=90, unloading=0, loading=90} loading successful
+2016-06-06 05:17:40,924 INFO  by.epam.port.action.DelayShipRunner [Thread-5] Ship goes to harbor
+2016-06-06 05:17:40,937 INFO  by.epam.port.entity.Harbor [Thread-7] Ship{id=2, capacity=90, unloading=0, loading=0} handled successfully
+2016-06-06 05:17:40,937 INFO  by.epam.port.action.DelayShipRunner [Thread-4] Ship has finished 
+2016-06-06 05:17:40,938 INFO  by.epam.port.entity.Harbor [Thread-8] Ship{id=0, capacity=90, unloading=0, loading=80} loading successful
+2016-06-06 05:17:40,938 INFO  by.epam.port.entity.Harbor [Thread-9] Ship{id=4, capacity=80, unloading=70, loading=80} unloading successful
+2016-06-06 05:17:40,938 INFO  by.epam.port.entity.Harbor [Thread-8] Ship{id=0, capacity=90, unloading=0, loading=0} handled successfully
+2016-06-06 05:17:40,938 INFO  by.epam.port.action.DelayShipRunner [Thread-3] Ship has finished 
+2016-06-06 05:17:41,920 INFO  by.epam.port.action.DelayShipRunner [Thread-2] Ship goes to harbor
+2016-06-06 05:17:41,921 INFO  by.epam.port.entity.Harbor [Thread-10] Ship{id=3, capacity=50, unloading=20, loading=40} unloading successful
+2016-06-06 05:17:41,922 INFO  by.epam.port.entity.Harbor [Thread-10] Ship{id=3, capacity=50, unloading=0, loading=40} loading successful
+2016-06-06 05:17:41,922 INFO  by.epam.port.entity.Harbor [Thread-10] Ship{id=3, capacity=50, unloading=0, loading=0} handled successfully
+2016-06-06 05:17:41,923 INFO  by.epam.port.action.DelayShipRunner [Thread-2] Ship has finished 
+2016-06-06 05:17:41,923 INFO  by.epam.port.util.HarborRunner [main] Runner finished
+2016-06-06 05:17:41,924 INFO  by.epam.port.util.HarborRunner [main] Runner finished
+2016-06-06 05:17:41,924 INFO  by.epam.port.util.HarborRunner [main] Runner finished
+2016-06-06 05:20:19,467 INFO  by.epam.port.util.Main [main] Parser has been created successfully 
+2016-06-06 05:20:19,472 INFO  by.epam.port.util.JsonParser [main] Seaport capacity has been read successfully 
+2016-06-06 05:20:19,472 INFO  by.epam.port.util.JsonParser [main] Terminals number has been read successfully 
+2016-06-06 05:20:42,463 ERROR by.epam.port.util.JsonParser [main] Ship cannot be parsed by.epam.port.exception.JsonParserException: Wrong attributes value
+	at by.epam.port.util.JsonParser.parseShip(JsonParser.java:88)
+	at by.epam.port.util.JsonParser.readShipsWithDelay(JsonParser.java:71)
+	at by.epam.port.util.Main.main(Main.java:27)
+Caused by: by.epam.port.exception.ShipCapacityException: Wrong number of containers
+	at by.epam.port.action.ShipCreator.createShip(ShipCreator.java:12)
+	at by.epam.port.util.JsonParser.parseShip(JsonParser.java:86)
+	... 2 more
+
+2016-06-06 05:20:42,465 INFO  by.epam.port.util.JsonParser [main] Ships have been read 
+2016-06-06 05:20:42,469 INFO  by.epam.port.action.DelayShipRunner [Thread-1] Start sleeping 1000 ms 
+2016-06-06 05:20:42,469 INFO  by.epam.port.action.DelayShipRunner [Thread-2] Start sleeping 3000 ms 
+2016-06-06 05:20:42,470 INFO  by.epam.port.action.DelayShipRunner [Thread-4] Start sleeping 1500 ms 
+2016-06-06 05:20:42,470 INFO  by.epam.port.action.DelayShipRunner [Thread-5] Start sleeping 2000 ms 
+2016-06-06 05:20:42,469 INFO  by.epam.port.action.DelayShipRunner [Thread-3] Start sleeping 2000 ms 
+2016-06-06 05:20:47,275 INFO  by.epam.port.util.Main [main] Parser has been created successfully 
+2016-06-06 05:20:47,279 INFO  by.epam.port.util.JsonParser [main] Seaport capacity has been read successfully 
+2016-06-06 05:20:47,279 INFO  by.epam.port.util.JsonParser [main] Terminals number has been read successfully 
+2016-06-06 05:20:47,283 INFO  by.epam.port.util.JsonParser [main] Ships have been read 
+2016-06-06 05:20:47,288 INFO  by.epam.port.action.DelayShipRunner [Thread-1] Start sleeping 1000 ms 
+2016-06-06 05:20:47,289 INFO  by.epam.port.action.DelayShipRunner [Thread-2] Start sleeping 3000 ms 
+2016-06-06 05:20:47,289 INFO  by.epam.port.action.DelayShipRunner [Thread-3] Start sleeping 2000 ms 
+2016-06-06 05:20:47,290 INFO  by.epam.port.action.DelayShipRunner [Thread-4] Start sleeping 1500 ms 
+2016-06-06 05:20:47,290 INFO  by.epam.port.action.DelayShipRunner [Thread-5] Start sleeping 5000 ms 
+2016-06-06 05:20:47,290 INFO  by.epam.port.action.DelayShipRunner [Thread-6] Start sleeping 2000 ms 
+2016-06-06 05:20:48,290 INFO  by.epam.port.action.DelayShipRunner [Thread-1] Ship goes to harbor
+2016-06-06 05:20:48,291 INFO  by.epam.port.entity.Harbor [Thread-7] Ship{id=1, capacity=90, unloading=90, loading=50} unloading successful
+2016-06-06 05:20:48,292 INFO  by.epam.port.entity.Harbor [Thread-7] Ship{id=1, capacity=90, unloading=0, loading=50} loading successful
+2016-06-06 05:20:48,292 INFO  by.epam.port.entity.Harbor [Thread-7] Ship{id=1, capacity=90, unloading=0, loading=0} handled successfully
+2016-06-06 05:20:48,293 INFO  by.epam.port.action.DelayShipRunner [Thread-1] Ship has finished 
+2016-06-06 05:20:48,294 INFO  by.epam.port.util.HarborRunner [main] Runner finished
+2016-06-06 05:20:48,790 INFO  by.epam.port.action.DelayShipRunner [Thread-4] Ship goes to harbor
+2016-06-06 05:20:48,791 INFO  by.epam.port.entity.Harbor [Thread-8] Ship{id=2, capacity=90, unloading=20, loading=90} unloading successful
+2016-06-06 05:20:49,290 INFO  by.epam.port.action.DelayShipRunner [Thread-3] Ship goes to harbor
+2016-06-06 05:20:49,291 INFO  by.epam.port.entity.Harbor [Thread-9] Ship{id=0, capacity=90, unloading=90, loading=80} unloading successful
+2016-06-06 05:20:49,291 INFO  by.epam.port.entity.Harbor [Thread-8] Ship{id=2, capacity=90, unloading=0, loading=90} loading successful
+2016-06-06 05:20:49,292 INFO  by.epam.port.action.DelayShipRunner [Thread-6] Ship goes to harbor
+2016-06-06 05:20:49,292 INFO  by.epam.port.entity.Harbor [Thread-8] Ship{id=2, capacity=90, unloading=0, loading=0} handled successfully
+2016-06-06 05:20:49,292 INFO  by.epam.port.action.DelayShipRunner [Thread-4] Ship has finished 
+2016-06-06 05:20:49,293 INFO  by.epam.port.entity.Harbor [Thread-9] Ship{id=0, capacity=90, unloading=0, loading=80} loading successful
+2016-06-06 05:20:49,293 INFO  by.epam.port.entity.Harbor [Thread-10] Ship{id=5, capacity=80, unloading=70, loading=80} unloading successful
+2016-06-06 05:20:49,294 INFO  by.epam.port.entity.Harbor [Thread-9] Ship{id=0, capacity=90, unloading=0, loading=0} handled successfully
+2016-06-06 05:20:49,294 INFO  by.epam.port.action.DelayShipRunner [Thread-3] Ship has finished 
+2016-06-06 05:20:50,290 INFO  by.epam.port.action.DelayShipRunner [Thread-2] Ship goes to harbor
+2016-06-06 05:20:50,291 INFO  by.epam.port.entity.Harbor [Thread-11] Ship{id=3, capacity=50, unloading=20, loading=40} unloading successful
+2016-06-06 05:20:50,292 INFO  by.epam.port.entity.Harbor [Thread-11] Ship{id=3, capacity=50, unloading=0, loading=40} loading successful
+2016-06-06 05:20:50,292 INFO  by.epam.port.entity.Harbor [Thread-11] Ship{id=3, capacity=50, unloading=0, loading=0} handled successfully
+2016-06-06 05:20:50,293 INFO  by.epam.port.action.DelayShipRunner [Thread-2] Ship has finished 
+2016-06-06 05:20:50,293 INFO  by.epam.port.util.HarborRunner [main] Runner finished
+2016-06-06 05:20:50,294 INFO  by.epam.port.util.HarborRunner [main] Runner finished
+2016-06-06 05:20:50,294 INFO  by.epam.port.util.HarborRunner [main] Runner finished
+2016-06-06 05:20:52,291 INFO  by.epam.port.action.DelayShipRunner [Thread-5] Ship goes to harbor
+2016-06-06 05:20:52,292 INFO  by.epam.port.entity.Harbor [Thread-12] Ship{id=4, capacity=70, unloading=30, loading=50} unloading successful
+2016-06-06 05:20:52,293 INFO  by.epam.port.entity.Harbor [Thread-12] Ship{id=4, capacity=70, unloading=0, loading=50} loading successful
+2016-06-06 05:20:52,293 INFO  by.epam.port.entity.Harbor [Thread-12] Ship{id=4, capacity=70, unloading=0, loading=0} handled successfully
+2016-06-06 05:20:52,294 INFO  by.epam.port.action.DelayShipRunner [Thread-5] Ship has finished 
+2016-06-06 05:20:52,294 INFO  by.epam.port.util.HarborRunner [main] Runner finished
+2016-06-06 06:27:11,207 ERROR by.epam.port.util.JsonParser [main] Ship cannot be parsed java.lang.NullPointerException
+	at by.epam.port.util.JsonParser.readShipsWithDelay(JsonParser.java:70)
+	at test.by.epam.port.parser.JsonParserTest.wrongDataTest(JsonParserTest.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:119)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:42)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:234)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)
+
+2016-06-06 06:27:11,227 ERROR by.epam.port.util.JsonParser [main] Ship cannot be parsed by.epam.port.exception.JsonParserException: No needed attributes
+	at by.epam.port.util.JsonParser.parseShip(JsonParser.java:90)
+	at by.epam.port.util.JsonParser.readShipsWithDelay(JsonParser.java:71)
+	at test.by.epam.port.parser.JsonParserTest.wrongDataTest(JsonParserTest.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:119)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:42)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:234)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)
+Caused by: java.lang.NullPointerException
+	at org.glassfish.json.JsonObjectBuilderImpl$JsonObjectImpl.getInt(JsonObjectBuilderImpl.java:213)
+	at by.epam.port.util.JsonParser.parseShip(JsonParser.java:85)
+	... 37 more
+
+2016-06-06 06:27:11,230 ERROR by.epam.port.util.JsonParser [main] Ship cannot be parsed by.epam.port.exception.JsonParserException: No needed attributes
+	at by.epam.port.util.JsonParser.parseShip(JsonParser.java:90)
+	at by.epam.port.util.JsonParser.readShipsWithDelay(JsonParser.java:71)
+	at test.by.epam.port.parser.JsonParserTest.wrongDataTest(JsonParserTest.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:119)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:42)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:234)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)
+Caused by: java.lang.NullPointerException
+	at org.glassfish.json.JsonObjectBuilderImpl$JsonObjectImpl.getInt(JsonObjectBuilderImpl.java:213)
+	at by.epam.port.util.JsonParser.parseShip(JsonParser.java:84)
+	... 37 more
+
+2016-06-06 06:27:11,231 ERROR by.epam.port.util.JsonParser [main] Ship cannot be parsed by.epam.port.exception.JsonParserException: No needed attributes
+	at by.epam.port.util.JsonParser.parseShip(JsonParser.java:90)
+	at by.epam.port.util.JsonParser.readShipsWithDelay(JsonParser.java:71)
+	at test.by.epam.port.parser.JsonParserTest.wrongDataTest(JsonParserTest.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:119)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:42)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:234)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)
+Caused by: java.lang.NullPointerException
+	at org.glassfish.json.JsonObjectBuilderImpl$JsonObjectImpl.getInt(JsonObjectBuilderImpl.java:213)
+	at by.epam.port.util.JsonParser.parseShip(JsonParser.java:83)
+	... 37 more
+
+2016-06-06 06:27:11,233 ERROR by.epam.port.util.JsonParser [main] Ship cannot be parsed by.epam.port.exception.JsonParserException: No needed attributes
+	at by.epam.port.util.JsonParser.parseShip(JsonParser.java:90)
+	at by.epam.port.util.JsonParser.readShipsWithDelay(JsonParser.java:71)
+	at test.by.epam.port.parser.JsonParserTest.wrongDataTest(JsonParserTest.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:119)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:42)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:234)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)
+Caused by: java.lang.NullPointerException
+	at org.glassfish.json.JsonObjectBuilderImpl$JsonObjectImpl.getInt(JsonObjectBuilderImpl.java:213)
+	at by.epam.port.util.JsonParser.parseShip(JsonParser.java:83)
+	... 37 more
+
+2016-06-06 06:27:11,237 ERROR by.epam.port.util.JsonParser [main] Ship cannot be parsed by.epam.port.exception.JsonParserException: No needed attributes
+	at by.epam.port.util.JsonParser.parseShip(JsonParser.java:90)
+	at by.epam.port.util.JsonParser.readShipsWithDelay(JsonParser.java:71)
+	at test.by.epam.port.parser.JsonParserTest.wrongDataTest(JsonParserTest.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:119)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:42)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:234)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)
+Caused by: java.lang.NullPointerException
+	at org.glassfish.json.JsonObjectBuilderImpl$JsonObjectImpl.getInt(JsonObjectBuilderImpl.java:213)
+	at by.epam.port.util.JsonParser.parseShip(JsonParser.java:84)
+	... 37 more
+
+2016-06-06 06:27:11,238 INFO  by.epam.port.util.JsonParser [main] Ships have been read 
+2016-06-06 06:57:33,343 ERROR by.epam.port.util.JsonParser [main] Ship cannot be parsed java.lang.NullPointerException
+	at by.epam.port.util.JsonParser.readShipsWithDelay(JsonParser.java:70)
+	at test.by.epam.port.parser.JsonParserTest.wrongDataTest(JsonParserTest.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:119)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:42)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:234)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)
+
+2016-06-06 06:57:33,347 ERROR by.epam.port.util.JsonParser [main] Ship cannot be parsed by.epam.port.exception.JsonParserException: No needed attributes
+	at by.epam.port.util.JsonParser.parseShip(JsonParser.java:90)
+	at by.epam.port.util.JsonParser.readShipsWithDelay(JsonParser.java:71)
+	at test.by.epam.port.parser.JsonParserTest.wrongDataTest(JsonParserTest.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:119)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:42)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:234)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)
+Caused by: java.lang.NullPointerException
+	at org.glassfish.json.JsonObjectBuilderImpl$JsonObjectImpl.getInt(JsonObjectBuilderImpl.java:213)
+	at by.epam.port.util.JsonParser.parseShip(JsonParser.java:85)
+	... 37 more
+
+2016-06-06 06:57:33,351 ERROR by.epam.port.util.JsonParser [main] Ship cannot be parsed by.epam.port.exception.JsonParserException: No needed attributes
+	at by.epam.port.util.JsonParser.parseShip(JsonParser.java:90)
+	at by.epam.port.util.JsonParser.readShipsWithDelay(JsonParser.java:71)
+	at test.by.epam.port.parser.JsonParserTest.wrongDataTest(JsonParserTest.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:119)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:42)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:234)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)
+Caused by: java.lang.NullPointerException
+	at org.glassfish.json.JsonObjectBuilderImpl$JsonObjectImpl.getInt(JsonObjectBuilderImpl.java:213)
+	at by.epam.port.util.JsonParser.parseShip(JsonParser.java:84)
+	... 37 more
+
+2016-06-06 06:57:33,354 ERROR by.epam.port.util.JsonParser [main] Ship cannot be parsed by.epam.port.exception.JsonParserException: No needed attributes
+	at by.epam.port.util.JsonParser.parseShip(JsonParser.java:90)
+	at by.epam.port.util.JsonParser.readShipsWithDelay(JsonParser.java:71)
+	at test.by.epam.port.parser.JsonParserTest.wrongDataTest(JsonParserTest.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:119)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:42)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:234)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)
+Caused by: java.lang.NullPointerException
+	at org.glassfish.json.JsonObjectBuilderImpl$JsonObjectImpl.getInt(JsonObjectBuilderImpl.java:213)
+	at by.epam.port.util.JsonParser.parseShip(JsonParser.java:83)
+	... 37 more
+
+2016-06-06 06:57:33,359 ERROR by.epam.port.util.JsonParser [main] Ship cannot be parsed by.epam.port.exception.JsonParserException: No needed attributes
+	at by.epam.port.util.JsonParser.parseShip(JsonParser.java:90)
+	at by.epam.port.util.JsonParser.readShipsWithDelay(JsonParser.java:71)
+	at test.by.epam.port.parser.JsonParserTest.wrongDataTest(JsonParserTest.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:119)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:42)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:234)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)
+Caused by: java.lang.NullPointerException
+	at org.glassfish.json.JsonObjectBuilderImpl$JsonObjectImpl.getInt(JsonObjectBuilderImpl.java:213)
+	at by.epam.port.util.JsonParser.parseShip(JsonParser.java:83)
+	... 37 more
+
+2016-06-06 06:57:33,364 ERROR by.epam.port.util.JsonParser [main] Ship cannot be parsed by.epam.port.exception.JsonParserException: No needed attributes
+	at by.epam.port.util.JsonParser.parseShip(JsonParser.java:90)
+	at by.epam.port.util.JsonParser.readShipsWithDelay(JsonParser.java:71)
+	at test.by.epam.port.parser.JsonParserTest.wrongDataTest(JsonParserTest.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:119)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:42)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:234)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)
+Caused by: java.lang.NullPointerException
+	at org.glassfish.json.JsonObjectBuilderImpl$JsonObjectImpl.getInt(JsonObjectBuilderImpl.java:213)
+	at by.epam.port.util.JsonParser.parseShip(JsonParser.java:84)
+	... 37 more
+
+2016-06-06 06:57:33,368 INFO  by.epam.port.util.JsonParser [main] Ships have been read 
+2016-06-06 06:57:33,494 INFO  by.epam.port.action.DelayShipRunner [Thread-3] Start sleeping 1000 ms 
+2016-06-06 06:58:38,382 ERROR by.epam.port.util.JsonParser [main] Ship cannot be parsed java.lang.NullPointerException
+	at by.epam.port.util.JsonParser.readShipsWithDelay(JsonParser.java:70)
+	at test.by.epam.port.parser.JsonParserTest.wrongDataTest(JsonParserTest.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:119)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:42)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:234)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)
+
+2016-06-06 06:58:38,386 ERROR by.epam.port.util.JsonParser [main] Ship cannot be parsed by.epam.port.exception.JsonParserException: No needed attributes
+	at by.epam.port.util.JsonParser.parseShip(JsonParser.java:90)
+	at by.epam.port.util.JsonParser.readShipsWithDelay(JsonParser.java:71)
+	at test.by.epam.port.parser.JsonParserTest.wrongDataTest(JsonParserTest.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:119)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:42)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:234)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)
+Caused by: java.lang.NullPointerException
+	at org.glassfish.json.JsonObjectBuilderImpl$JsonObjectImpl.getInt(JsonObjectBuilderImpl.java:213)
+	at by.epam.port.util.JsonParser.parseShip(JsonParser.java:85)
+	... 37 more
+
+2016-06-06 06:58:38,390 ERROR by.epam.port.util.JsonParser [main] Ship cannot be parsed by.epam.port.exception.JsonParserException: No needed attributes
+	at by.epam.port.util.JsonParser.parseShip(JsonParser.java:90)
+	at by.epam.port.util.JsonParser.readShipsWithDelay(JsonParser.java:71)
+	at test.by.epam.port.parser.JsonParserTest.wrongDataTest(JsonParserTest.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:119)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:42)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:234)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)
+Caused by: java.lang.NullPointerException
+	at org.glassfish.json.JsonObjectBuilderImpl$JsonObjectImpl.getInt(JsonObjectBuilderImpl.java:213)
+	at by.epam.port.util.JsonParser.parseShip(JsonParser.java:84)
+	... 37 more
+
+2016-06-06 06:58:38,391 ERROR by.epam.port.util.JsonParser [main] Ship cannot be parsed by.epam.port.exception.JsonParserException: No needed attributes
+	at by.epam.port.util.JsonParser.parseShip(JsonParser.java:90)
+	at by.epam.port.util.JsonParser.readShipsWithDelay(JsonParser.java:71)
+	at test.by.epam.port.parser.JsonParserTest.wrongDataTest(JsonParserTest.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:119)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:42)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:234)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)
+Caused by: java.lang.NullPointerException
+	at org.glassfish.json.JsonObjectBuilderImpl$JsonObjectImpl.getInt(JsonObjectBuilderImpl.java:213)
+	at by.epam.port.util.JsonParser.parseShip(JsonParser.java:83)
+	... 37 more
+
+2016-06-06 06:58:38,393 ERROR by.epam.port.util.JsonParser [main] Ship cannot be parsed by.epam.port.exception.JsonParserException: No needed attributes
+	at by.epam.port.util.JsonParser.parseShip(JsonParser.java:90)
+	at by.epam.port.util.JsonParser.readShipsWithDelay(JsonParser.java:71)
+	at test.by.epam.port.parser.JsonParserTest.wrongDataTest(JsonParserTest.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:119)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:42)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:234)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)
+Caused by: java.lang.NullPointerException
+	at org.glassfish.json.JsonObjectBuilderImpl$JsonObjectImpl.getInt(JsonObjectBuilderImpl.java:213)
+	at by.epam.port.util.JsonParser.parseShip(JsonParser.java:83)
+	... 37 more
+
+2016-06-06 06:58:38,399 ERROR by.epam.port.util.JsonParser [main] Ship cannot be parsed by.epam.port.exception.JsonParserException: No needed attributes
+	at by.epam.port.util.JsonParser.parseShip(JsonParser.java:90)
+	at by.epam.port.util.JsonParser.readShipsWithDelay(JsonParser.java:71)
+	at test.by.epam.port.parser.JsonParserTest.wrongDataTest(JsonParserTest.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:119)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:42)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:234)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)
+Caused by: java.lang.NullPointerException
+	at org.glassfish.json.JsonObjectBuilderImpl$JsonObjectImpl.getInt(JsonObjectBuilderImpl.java:213)
+	at by.epam.port.util.JsonParser.parseShip(JsonParser.java:84)
+	... 37 more
+
+2016-06-06 06:58:38,400 INFO  by.epam.port.util.JsonParser [main] Ships have been read 
+2016-06-06 06:58:38,513 INFO  by.epam.port.action.DelayShipRunner [Thread-3] Start sleeping 1000 ms 
+2016-06-06 09:11:06,573 INFO  by.epam.port.action.DelayShipRunner [Thread-1] Start sleeping 1000 ms 
+2016-06-06 09:12:41,458 INFO  by.epam.port.action.DelayShipRunner [Thread-1] Start sleeping 1000 ms 
+2016-06-06 09:12:42,459 INFO  by.epam.port.action.DelayShipRunner [Thread-1] Ship goes to harbor
+2016-06-06 09:12:42,459 INFO  by.epam.port.entity.Harbor [Thread-2] Ship{id=0, capacity=200, unloading=150, loading=100} unloading successful
+2016-06-06 09:12:42,460 INFO  by.epam.port.entity.Harbor [Thread-2] Ship{id=0, capacity=200, unloading=0, loading=100} loading successful
+2016-06-06 09:12:42,460 INFO  by.epam.port.entity.Harbor [Thread-2] Ship{id=0, capacity=200, unloading=0, loading=0} handled successfully
+2016-06-06 09:12:42,460 INFO  by.epam.port.action.DelayShipRunner [Thread-1] Ship has finished 
+2016-06-06 09:13:15,874 INFO  by.epam.port.action.DelayShipRunner [Thread-1] Start sleeping 1000 ms 
+2016-06-06 09:13:26,765 INFO  by.epam.port.action.DelayShipRunner [Thread-1] Start sleeping 1000 ms 
+2016-06-06 09:13:37,009 INFO  by.epam.port.action.DelayShipRunner [Thread-1] Start sleeping 1000 ms 
+2016-06-06 09:13:38,012 INFO  by.epam.port.action.DelayShipRunner [Thread-1] Ship goes to harbor
+2016-06-06 09:13:38,013 INFO  by.epam.port.entity.Harbor [Thread-2] Ship{id=0, capacity=200, unloading=150, loading=100} unloading successful
+2016-06-06 09:13:38,013 INFO  by.epam.port.entity.Harbor [Thread-2] Ship{id=0, capacity=200, unloading=0, loading=100} loading successful
+2016-06-06 09:13:48,608 INFO  by.epam.port.action.DelayShipRunner [Thread-1] Start sleeping 1000 ms 
+2016-06-06 09:13:49,610 INFO  by.epam.port.action.DelayShipRunner [Thread-1] Ship goes to harbor
+2016-06-06 09:13:49,610 INFO  by.epam.port.entity.Harbor [Thread-2] Ship{id=0, capacity=200, unloading=150, loading=100} unloading successful
+2016-06-06 09:13:49,610 INFO  by.epam.port.entity.Harbor [Thread-2] Ship{id=0, capacity=200, unloading=0, loading=100} loading successful
+2016-06-06 09:13:49,610 INFO  by.epam.port.entity.Harbor [Thread-2] Ship{id=0, capacity=200, unloading=0, loading=0} handled successfully
+2016-06-06 09:13:49,611 INFO  by.epam.port.action.DelayShipRunner [Thread-1] Ship has finished 
+2016-06-06 09:13:59,748 INFO  by.epam.port.action.DelayShipRunner [Thread-1] Start sleeping 1000 ms 
+2016-06-06 09:14:12,980 INFO  by.epam.port.action.DelayShipRunner [Thread-1] Start sleeping 1000 ms 
+2016-06-06 09:14:13,981 INFO  by.epam.port.action.DelayShipRunner [Thread-1] Ship goes to harbor
+2016-06-06 09:14:13,982 INFO  by.epam.port.entity.Harbor [Thread-2] Ship{id=0, capacity=200, unloading=150, loading=100} unloading successful
+2016-06-06 09:14:13,983 INFO  by.epam.port.entity.Harbor [Thread-2] Ship{id=0, capacity=200, unloading=0, loading=100} loading successful
+2016-06-06 09:14:13,983 INFO  by.epam.port.entity.Harbor [Thread-2] Ship{id=0, capacity=200, unloading=0, loading=0} handled successfully
+2016-06-06 09:14:13,984 INFO  by.epam.port.action.DelayShipRunner [Thread-1] Ship has finished 
+2016-06-06 09:19:56,348 INFO  by.epam.port.action.DelayShipRunner [Thread-1] Start sleeping 1000 ms 
+2016-06-06 09:19:57,349 INFO  by.epam.port.action.DelayShipRunner [Thread-1] Ship goes to harbor
+2016-06-06 09:19:57,350 INFO  by.epam.port.entity.Harbor [Thread-2] Ship{id=0, capacity=200, unloading=150, loading=100} unloading successful
+2016-06-06 09:19:57,351 INFO  by.epam.port.entity.Harbor [Thread-2] Ship{id=0, capacity=200, unloading=0, loading=100} loading successful
+2016-06-06 09:19:57,351 INFO  by.epam.port.entity.Harbor [Thread-2] Ship{id=0, capacity=200, unloading=0, loading=0} handled successfully
+2016-06-06 09:19:57,351 INFO  by.epam.port.action.DelayShipRunner [Thread-1] Ship has finished 
+2016-06-06 10:14:31,674 ERROR by.epam.port.util.JsonParser [main] Ship cannot be parsed by.epam.port.exception.JsonParserException: Wrong attributes value
+	at by.epam.port.util.JsonParser.parseShip(JsonParser.java:95)
+	at by.epam.port.util.JsonParser.readShipsWithDelay(JsonParser.java:73)
+	at test.by.epam.port.parser.JsonParserTest.wrongDataTest(JsonParserTest.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:119)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:42)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:234)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)
+
+2016-06-06 10:14:31,677 ERROR by.epam.port.util.JsonParser [main] Ship cannot be parsed by.epam.port.exception.JsonParserException: Wrong attributes value
+	at by.epam.port.util.JsonParser.parseShip(JsonParser.java:95)
+	at by.epam.port.util.JsonParser.readShipsWithDelay(JsonParser.java:73)
+	at test.by.epam.port.parser.JsonParserTest.wrongDataTest(JsonParserTest.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:119)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:42)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:234)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)
+
+2016-06-06 10:14:31,681 ERROR by.epam.port.util.JsonParser [main] Ship cannot be parsed by.epam.port.exception.JsonParserException: Wrong attributes value
+	at by.epam.port.util.JsonParser.parseShip(JsonParser.java:95)
+	at by.epam.port.util.JsonParser.readShipsWithDelay(JsonParser.java:73)
+	at test.by.epam.port.parser.JsonParserTest.wrongDataTest(JsonParserTest.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:119)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:42)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:234)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)
+
+2016-06-06 10:14:31,682 ERROR by.epam.port.util.JsonParser [main] Ship cannot be parsed by.epam.port.exception.JsonParserException: Wrong attributes value
+	at by.epam.port.util.JsonParser.parseShip(JsonParser.java:95)
+	at by.epam.port.util.JsonParser.readShipsWithDelay(JsonParser.java:73)
+	at test.by.epam.port.parser.JsonParserTest.wrongDataTest(JsonParserTest.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:119)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:42)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:234)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)
+
+2016-06-06 10:14:31,683 ERROR by.epam.port.util.JsonParser [main] Ship cannot be parsed by.epam.port.exception.JsonParserException: Wrong attributes value
+	at by.epam.port.util.JsonParser.parseShip(JsonParser.java:95)
+	at by.epam.port.util.JsonParser.readShipsWithDelay(JsonParser.java:73)
+	at test.by.epam.port.parser.JsonParserTest.wrongDataTest(JsonParserTest.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:119)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:42)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:234)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)
+
+2016-06-06 10:14:31,684 INFO  by.epam.port.util.JsonParser [main] Ships have been read 
+2016-06-06 10:45:14,201 INFO  by.epam.port.util.Main [main] Parser has been created successfully 
+2016-06-06 10:45:14,205 INFO  by.epam.port.util.JsonParser [main] Seaport capacity has been read successfully 
+2016-06-06 10:45:14,205 INFO  by.epam.port.util.JsonParser [main] Docks number has been read successfully 
+2016-06-06 10:45:14,248 INFO  by.epam.port.util.JsonParser [main] Ships have been read 
+2016-06-06 10:45:14,258 INFO  by.epam.port.util.Main [main] Seaport runner is starting 
+2016-06-06 10:45:14,260 INFO  by.epam.port.util.HarborRunner [main] Ship runner started
+2016-06-06 10:45:14,260 INFO  by.epam.port.action.DelayShipRunner [Thread-1] Start sleeping 1000 ms 
+2016-06-06 10:45:14,260 INFO  by.epam.port.util.HarborRunner [main] Ship runner started
+2016-06-06 10:45:14,260 INFO  by.epam.port.action.DelayShipRunner [Thread-2] Start sleeping 3000 ms 
+2016-06-06 10:45:14,261 INFO  by.epam.port.util.HarborRunner [main] Ship runner started
+2016-06-06 10:45:14,261 INFO  by.epam.port.action.DelayShipRunner [Thread-3] Start sleeping 2000 ms 
+2016-06-06 10:45:14,274 INFO  by.epam.port.util.HarborRunner [main] Ship runner started
+2016-06-06 10:45:14,275 INFO  by.epam.port.util.HarborRunner [main] Ship runner started
+2016-06-06 10:45:14,275 INFO  by.epam.port.util.HarborRunner [main] Ship runner started
+2016-06-06 10:45:14,276 INFO  by.epam.port.action.DelayShipRunner [Thread-4] Start sleeping 1500 ms 
+2016-06-06 10:45:14,277 INFO  by.epam.port.action.DelayShipRunner [Thread-5] Start sleeping 5000 ms 
+2016-06-06 10:45:14,278 INFO  by.epam.port.action.DelayShipRunner [Thread-6] Start sleeping 2000 ms 
+2016-06-06 10:45:15,260 INFO  by.epam.port.action.DelayShipRunner [Thread-1] Ship goes to harbor
+2016-06-06 10:45:15,260 INFO  by.epam.port.entity.Harbor [Thread-7] Ship{id=1, capacity=90, unloading=90, loading=50} unloading successful
+2016-06-06 10:45:15,260 INFO  by.epam.port.entity.Harbor [Thread-7] Ship{id=1, capacity=90, unloading=0, loading=50} loading successful
+2016-06-06 10:45:15,260 INFO  by.epam.port.entity.Harbor [Thread-7] Ship{id=1, capacity=90, unloading=0, loading=0} handled successfully
+2016-06-06 10:45:15,261 INFO  by.epam.port.action.DelayShipRunner [Thread-1] Ship has finished 
+2016-06-06 10:45:15,261 INFO  by.epam.port.util.HarborRunner [main] Ship runner finished
+2016-06-06 10:45:15,777 INFO  by.epam.port.action.DelayShipRunner [Thread-4] Ship goes to harbor
+2016-06-06 10:45:15,778 INFO  by.epam.port.entity.Harbor [Thread-8] Ship{id=2, capacity=90, unloading=20, loading=90} unloading successful
+2016-06-06 10:45:16,275 INFO  by.epam.port.action.DelayShipRunner [Thread-3] Ship goes to harbor
+2016-06-06 10:45:16,276 INFO  by.epam.port.entity.Harbor [Thread-8] Ship{id=2, capacity=90, unloading=0, loading=90} loading successful
+2016-06-06 10:45:16,276 INFO  by.epam.port.entity.Harbor [Thread-9] Ship{id=0, capacity=90, unloading=90, loading=80} unloading successful
+2016-06-06 10:45:16,277 INFO  by.epam.port.entity.Harbor [Thread-8] Ship{id=2, capacity=90, unloading=0, loading=0} handled successfully
+2016-06-06 10:45:16,277 INFO  by.epam.port.action.DelayShipRunner [Thread-4] Ship has finished 
+2016-06-06 10:45:16,279 INFO  by.epam.port.action.DelayShipRunner [Thread-6] Ship goes to harbor
+2016-06-06 10:45:16,280 INFO  by.epam.port.entity.Harbor [Thread-9] Ship{id=0, capacity=90, unloading=0, loading=80} loading successful
+2016-06-06 10:45:16,280 INFO  by.epam.port.entity.Harbor [Thread-10] Ship{id=5, capacity=80, unloading=70, loading=80} unloading successful
+2016-06-06 10:45:16,280 INFO  by.epam.port.entity.Harbor [Thread-9] Ship{id=0, capacity=90, unloading=0, loading=0} handled successfully
+2016-06-06 10:45:16,281 INFO  by.epam.port.action.DelayShipRunner [Thread-3] Ship has finished 
+2016-06-06 10:45:17,275 INFO  by.epam.port.action.DelayShipRunner [Thread-2] Ship goes to harbor
+2016-06-06 10:45:17,275 INFO  by.epam.port.entity.Harbor [Thread-11] Ship{id=3, capacity=50, unloading=20, loading=40} unloading successful
+2016-06-06 10:45:17,275 INFO  by.epam.port.entity.Harbor [Thread-11] Ship{id=3, capacity=50, unloading=0, loading=40} loading successful
+2016-06-06 10:45:17,275 INFO  by.epam.port.entity.Harbor [Thread-11] Ship{id=3, capacity=50, unloading=0, loading=0} handled successfully
+2016-06-06 10:45:17,276 INFO  by.epam.port.action.DelayShipRunner [Thread-2] Ship has finished 
+2016-06-06 10:45:17,276 INFO  by.epam.port.util.HarborRunner [main] Ship runner finished
+2016-06-06 10:45:17,276 INFO  by.epam.port.util.HarborRunner [main] Ship runner finished
+2016-06-06 10:45:17,276 INFO  by.epam.port.util.HarborRunner [main] Ship runner finished
+2016-06-06 10:45:19,279 INFO  by.epam.port.action.DelayShipRunner [Thread-5] Ship goes to harbor
+2016-06-06 10:45:19,280 INFO  by.epam.port.entity.Harbor [Thread-12] Ship{id=4, capacity=70, unloading=30, loading=50} unloading successful
+2016-06-06 10:45:19,280 INFO  by.epam.port.entity.Harbor [Thread-12] Ship{id=4, capacity=70, unloading=0, loading=50} loading successful
+2016-06-06 10:45:19,280 INFO  by.epam.port.entity.Harbor [Thread-12] Ship{id=4, capacity=70, unloading=0, loading=0} handled successfully
+2016-06-06 10:45:19,280 INFO  by.epam.port.action.DelayShipRunner [Thread-5] Ship has finished 
+2016-06-06 10:45:19,281 INFO  by.epam.port.util.HarborRunner [main] Ship runner finished

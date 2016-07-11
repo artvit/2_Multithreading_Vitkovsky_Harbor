@@ -1,0 +1,28 @@
+{ "capacity": 2000,
+  "docks": 4,
+  "ships": [
+    {
+      "capacity": 90,
+      "loading": 80,
+      "unloading": 90
+    },
+    {
+      "capacity": 90,
+      "loading": 50
+    },
+    {
+      "capacity": 90,
+      "unloading": 20
+    },
+    {
+      "loading": 40,
+      "unloading": 20
+    },
+    {
+      "unloading": 30
+    },
+    {
+      "capacity": 80
+    }
+  ]
+}

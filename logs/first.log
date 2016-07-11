@@ -1,0 +1,221 @@
+2016-06-14 22:19:19,479 INFO  by.epam.port.util.Main [main] Парсер создан успешно 
+2016-06-14 22:19:19,519 INFO  by.epam.port.util.JsonParser [main] Емкость склада порта успешно прочитана 
+2016-06-14 22:19:19,520 INFO  by.epam.port.util.JsonParser [main] Количество пристань успешно прочитано 
+2016-06-14 22:19:19,521 INFO  by.epam.port.entity.Harbor [main] Морской порт не может быть создан 
+2016-06-14 22:19:57,208 INFO  by.epam.port.util.Main [main] Парсер создан успешно 
+2016-06-14 22:19:57,216 INFO  by.epam.port.util.JsonParser [main] Емкость склада порта успешно прочитана 
+2016-06-14 22:19:57,216 INFO  by.epam.port.util.JsonParser [main] Количество пристань успешно прочитано 
+2016-06-14 22:19:57,217 INFO  by.epam.port.entity.Harbor [main] Морской порт не может быть создан 
+2016-06-14 22:19:57,220 INFO  by.epam.port.util.JsonParser [main] Корабли прочитаны 
+2016-06-14 22:19:57,221 INFO  by.epam.port.util.HarborRunner [main] Раннер порта запущен 
+2016-06-14 22:19:57,222 INFO  by.epam.port.util.HarborRunner [main] Начало обработки корабля 
+2016-06-14 22:19:57,222 INFO  by.epam.port.util.HarborRunner [main] Начало обработки корабля 
+2016-06-14 22:19:57,222 INFO  by.epam.port.util.HarborRunner [main] Начало обработки корабля 
+2016-06-14 22:19:57,222 INFO  by.epam.port.util.HarborRunner [main] Начало обработки корабля 
+2016-06-14 22:19:57,223 INFO  by.epam.port.util.HarborRunner [main] Начало обработки корабля 
+2016-06-14 22:19:57,223 INFO  by.epam.port.util.HarborRunner [main] Начало обработки корабля 
+2016-06-14 22:19:57,250 INFO  by.epam.port.entity.Harbor [Thread-1] Корабль{№=0, емкость=90, разгрузка=90, загрузка=80} разгрузка успешно завершена 
+2016-06-14 22:19:57,250 INFO  by.epam.port.entity.Harbor [Thread-1] Корабль{№=0, емкость=90, разгрузка=0, загрузка=80} погрузка успешно завершена 
+2016-06-14 22:19:57,251 INFO  by.epam.port.entity.Harbor [Thread-1] Корабль{№=0, емкость=90, разгрузка=0, загрузка=0} обработан успешно 
+2016-06-14 22:19:57,251 INFO  by.epam.port.util.HarborRunner [main] Парсер создан успешно 
+2016-06-14 22:19:57,259 INFO  by.epam.port.entity.Harbor [Thread-2] Корабль{№=1, емкость=90, разгрузка=90, загрузка=50} разгрузка успешно завершена 
+2016-06-14 22:19:57,259 INFO  by.epam.port.entity.Harbor [Thread-2] Корабль{№=1, емкость=90, разгрузка=0, загрузка=50} погрузка успешно завершена 
+2016-06-14 22:19:57,260 INFO  by.epam.port.entity.Harbor [Thread-3] Корабль{№=2, емкость=90, разгрузка=20, загрузка=90} разгрузка успешно завершена 
+2016-06-14 22:19:57,260 INFO  by.epam.port.entity.Harbor [Thread-2] Корабль{№=1, емкость=90, разгрузка=0, загрузка=0} обработан успешно 
+2016-06-14 22:19:57,269 INFO  by.epam.port.entity.Harbor [Thread-4] Корабль{№=3, емкость=50, разгрузка=20, загрузка=40} разгрузка успешно завершена 
+2016-06-14 22:19:57,270 INFO  by.epam.port.entity.Harbor [Thread-4] Корабль{№=3, емкость=50, разгрузка=0, загрузка=40} погрузка успешно завершена 
+2016-06-14 22:19:57,270 INFO  by.epam.port.entity.Harbor [Thread-4] Корабль{№=3, емкость=50, разгрузка=0, загрузка=0} обработан успешно 
+2016-06-14 22:19:57,260 INFO  by.epam.port.entity.Harbor [Thread-5] Корабль{№=4, емкость=70, разгрузка=30, загрузка=50} разгрузка успешно завершена 
+2016-06-14 22:19:57,277 INFO  by.epam.port.entity.Harbor [Thread-5] Корабль{№=4, емкость=70, разгрузка=0, загрузка=50} погрузка успешно завершена 
+2016-06-14 22:19:57,277 INFO  by.epam.port.entity.Harbor [Thread-6] Корабль{№=5, емкость=80, разгрузка=70, загрузка=80} разгрузка успешно завершена 
+2016-06-14 22:19:57,277 INFO  by.epam.port.entity.Harbor [Thread-6] Корабль{№=5, емкость=80, разгрузка=0, загрузка=80} погрузка успешно завершена 
+2016-06-14 22:19:57,277 INFO  by.epam.port.entity.Harbor [Thread-5] Корабль{№=4, емкость=70, разгрузка=0, загрузка=0} обработан успешно 
+2016-06-14 22:19:57,277 INFO  by.epam.port.entity.Harbor [Thread-6] Корабль{№=5, емкость=80, разгрузка=0, загрузка=0} обработан успешно 
+2016-06-14 22:19:57,278 INFO  by.epam.port.util.HarborRunner [main] Парсер создан успешно 
+2016-06-14 22:20:07,279 INFO  by.epam.port.util.HarborRunner [main] Парсер создан успешно 
+2016-06-14 22:20:07,279 INFO  by.epam.port.util.HarborRunner [main] Парсер создан успешно 
+2016-06-14 22:20:07,279 INFO  by.epam.port.util.HarborRunner [main] Парсер создан успешно 
+2016-06-14 22:20:07,279 INFO  by.epam.port.util.HarborRunner [main] Парсер создан успешно 
+2016-06-14 22:20:07,279 INFO  by.epam.port.util.HarborRunner [main] Раннер порта завершен 
+2016-06-14 22:21:31,462 INFO  by.epam.port.util.Main [main] Парсер создан успешно 
+2016-06-14 22:21:31,468 INFO  by.epam.port.util.JsonParser [main] Емкость склада порта успешно прочитана 
+2016-06-14 22:21:31,468 INFO  by.epam.port.util.JsonParser [main] Количество пристань успешно прочитано 
+2016-06-14 22:21:31,470 INFO  by.epam.port.entity.Harbor [main] Морской порт не может быть создан 
+2016-06-14 22:21:31,474 INFO  by.epam.port.util.JsonParser [main] Корабли прочитаны 
+2016-06-14 22:21:31,476 INFO  by.epam.port.util.HarborRunner [main] Раннер порта запущен 
+2016-06-14 22:21:31,476 INFO  by.epam.port.util.HarborRunner [main] Начало обработки корабля 
+2016-06-14 22:21:31,477 INFO  by.epam.port.util.HarborRunner [main] Начало обработки корабля 
+2016-06-14 22:21:31,477 INFO  by.epam.port.util.HarborRunner [main] Начало обработки корабля 
+2016-06-14 22:21:31,477 INFO  by.epam.port.util.HarborRunner [main] Начало обработки корабля 
+2016-06-14 22:21:31,478 INFO  by.epam.port.util.HarborRunner [main] Начало обработки корабля 
+2016-06-14 22:21:31,478 INFO  by.epam.port.util.HarborRunner [main] Начало обработки корабля 
+2016-06-14 22:21:31,525 INFO  by.epam.port.entity.Harbor [Thread-1] Корабль{№=0, емкость=90, разгрузка=90, загрузка=80} разгрузка успешно завершена 
+2016-06-14 22:21:31,528 INFO  by.epam.port.entity.Harbor [Thread-1] Корабль{№=0, емкость=90, разгрузка=0, загрузка=80} погрузка успешно завершена 
+2016-06-14 22:21:31,528 INFO  by.epam.port.entity.Harbor [Thread-1] Корабль{№=0, емкость=90, разгрузка=0, загрузка=0} обработан успешно 
+2016-06-14 22:21:31,531 INFO  by.epam.port.util.HarborRunner [main] Конец обработки корабля 
+2016-06-14 22:21:31,534 INFO  by.epam.port.entity.Harbor [Thread-2] Корабль{№=1, емкость=90, разгрузка=90, загрузка=50} разгрузка успешно завершена 
+2016-06-14 22:21:31,534 INFO  by.epam.port.entity.Harbor [Thread-3] Корабль{№=2, емкость=90, разгрузка=20, загрузка=90} разгрузка успешно завершена 
+2016-06-14 22:21:31,534 INFO  by.epam.port.entity.Harbor [Thread-2] Корабль{№=1, емкость=90, разгрузка=0, загрузка=50} погрузка успешно завершена 
+2016-06-14 22:21:31,534 INFO  by.epam.port.entity.Harbor [Thread-2] Корабль{№=1, емкость=90, разгрузка=0, загрузка=0} обработан успешно 
+2016-06-14 22:21:31,534 INFO  by.epam.port.util.HarborRunner [main] Конец обработки корабля 
+2016-06-14 22:21:31,535 INFO  by.epam.port.entity.Harbor [Thread-4] Корабль{№=3, емкость=50, разгрузка=20, загрузка=40} разгрузка успешно завершена 
+2016-06-14 22:21:31,535 INFO  by.epam.port.entity.Harbor [Thread-6] Корабль{№=5, емкость=80, разгрузка=70, загрузка=80} разгрузка успешно завершена 
+2016-06-14 22:21:31,535 INFO  by.epam.port.entity.Harbor [Thread-3] Корабль{№=2, емкость=90, разгрузка=0, загрузка=90} погрузка успешно завершена 
+2016-06-14 22:21:31,535 INFO  by.epam.port.entity.Harbor [Thread-4] Корабль{№=3, емкость=50, разгрузка=0, загрузка=40} погрузка успешно завершена 
+2016-06-14 22:21:31,535 INFO  by.epam.port.entity.Harbor [Thread-3] Корабль{№=2, емкость=90, разгрузка=0, загрузка=0} обработан успешно 
+2016-06-14 22:21:31,535 INFO  by.epam.port.entity.Harbor [Thread-4] Корабль{№=3, емкость=50, разгрузка=0, загрузка=0} обработан успешно 
+2016-06-14 22:21:31,536 INFO  by.epam.port.util.HarborRunner [main] Конец обработки корабля 
+2016-06-14 22:21:31,536 INFO  by.epam.port.util.HarborRunner [main] Конец обработки корабля 
+2016-06-14 22:21:31,537 INFO  by.epam.port.entity.Harbor [Thread-5] Корабль{№=4, емкость=70, разгрузка=30, загрузка=50} разгрузка успешно завершена 
+2016-06-14 22:21:31,537 INFO  by.epam.port.entity.Harbor [Thread-5] Корабль{№=4, емкость=70, разгрузка=0, загрузка=50} погрузка успешно завершена 
+2016-06-14 22:21:31,537 INFO  by.epam.port.entity.Harbor [Thread-5] Корабль{№=4, емкость=70, разгрузка=0, загрузка=0} обработан успешно 
+2016-06-14 22:21:31,537 INFO  by.epam.port.util.HarborRunner [main] Конец обработки корабля 
+2016-06-14 22:21:41,538 INFO  by.epam.port.util.HarborRunner [main] Конец обработки корабля 
+2016-06-14 22:21:41,538 INFO  by.epam.port.util.HarborRunner [main] Раннер порта завершен 
+2016-06-14 22:37:36,497 INFO  by.epam.port.util.Main [main] Парсер создан успешно 
+2016-06-14 22:37:36,503 INFO  by.epam.port.util.JsonParser [main] Емкость склада порта успешно прочитана 
+2016-06-14 22:37:36,504 INFO  by.epam.port.util.JsonParser [main] Количество пристань успешно прочитано 
+2016-06-14 22:37:36,505 INFO  by.epam.port.entity.Harbor [main] Морской порт не может быть создан 
+2016-06-14 22:37:36,573 INFO  by.epam.port.util.JsonParser [main] Корабли прочитаны 
+2016-06-14 22:37:36,590 INFO  by.epam.port.util.HarborRunner [main] Раннер порта запущен 
+2016-06-14 22:37:36,591 INFO  by.epam.port.util.HarborRunner [main] Начало обработки корабля 
+2016-06-14 22:37:36,592 INFO  by.epam.port.util.HarborRunner [main] Начало обработки корабля 
+2016-06-14 22:37:36,594 INFO  by.epam.port.util.HarborRunner [main] Начало обработки корабля 
+2016-06-14 22:37:36,595 INFO  by.epam.port.util.HarborRunner [main] Начало обработки корабля 
+2016-06-14 22:37:36,595 INFO  by.epam.port.util.HarborRunner [main] Начало обработки корабля 
+2016-06-14 22:37:36,595 INFO  by.epam.port.util.HarborRunner [main] Начало обработки корабля 
+2016-06-14 22:37:36,597 INFO  by.epam.port.entity.Harbor [Thread-2] Корабль{№=1, емкость=90, разгрузка=90, загрузка=50} разгрузка успешно завершена 
+2016-06-14 22:37:36,597 INFO  by.epam.port.entity.Harbor [Thread-2] Корабль{№=1, емкость=90, разгрузка=0, загрузка=50} погрузка успешно завершена 
+2016-06-14 22:37:36,597 INFO  by.epam.port.entity.Harbor [Thread-2] Корабль{№=1, емкость=90, разгрузка=0, загрузка=0} обработан успешно 
+2016-06-14 22:37:36,597 INFO  by.epam.port.entity.Harbor [Thread-1] Корабль{№=0, емкость=90, разгрузка=90, загрузка=80} разгрузка успешно завершена 
+2016-06-14 22:37:36,598 INFO  by.epam.port.entity.Harbor [Thread-1] Корабль{№=0, емкость=90, разгрузка=0, загрузка=80} погрузка успешно завершена 
+2016-06-14 22:37:36,598 INFO  by.epam.port.entity.Harbor [Thread-1] Корабль{№=0, емкость=90, разгрузка=0, загрузка=0} обработан успешно 
+2016-06-14 22:37:36,598 INFO  by.epam.port.entity.Harbor [Thread-3] Корабль{№=2, емкость=90, разгрузка=20, загрузка=90} разгрузка успешно завершена 
+2016-06-14 22:37:36,598 INFO  by.epam.port.util.HarborRunner [main] Конец обработки корабля 
+2016-06-14 22:37:36,598 INFO  by.epam.port.util.HarborRunner [main] Конец обработки корабля 
+2016-06-14 22:37:36,598 INFO  by.epam.port.entity.Harbor [Thread-3] Корабль{№=2, емкость=90, разгрузка=0, загрузка=90} погрузка успешно завершена 
+2016-06-14 22:37:36,599 INFO  by.epam.port.entity.Harbor [Thread-5] Корабль{№=4, емкость=70, разгрузка=30, загрузка=50} разгрузка успешно завершена 
+2016-06-14 22:37:36,598 INFO  by.epam.port.entity.Harbor [Thread-4] Корабль{№=3, емкость=50, разгрузка=20, загрузка=40} разгрузка успешно завершена 
+2016-06-14 22:37:36,599 INFO  by.epam.port.entity.Harbor [Thread-3] Корабль{№=2, емкость=90, разгрузка=0, загрузка=0} обработан успешно 
+2016-06-14 22:37:36,599 INFO  by.epam.port.entity.Harbor [Thread-6] Корабль{№=5, емкость=80, разгрузка=70, загрузка=80} разгрузка успешно завершена 
+2016-06-14 22:37:36,599 INFO  by.epam.port.entity.Harbor [Thread-5] Корабль{№=4, емкость=70, разгрузка=0, загрузка=50} погрузка успешно завершена 
+2016-06-14 22:37:36,599 INFO  by.epam.port.entity.Harbor [Thread-4] Корабль{№=3, емкость=50, разгрузка=0, загрузка=40} погрузка успешно завершена 
+2016-06-14 22:37:36,599 INFO  by.epam.port.entity.Harbor [Thread-5] Корабль{№=4, емкость=70, разгрузка=0, загрузка=0} обработан успешно 
+2016-06-14 22:37:36,599 INFO  by.epam.port.entity.Harbor [Thread-4] Корабль{№=3, емкость=50, разгрузка=0, загрузка=0} обработан успешно 
+2016-06-14 22:37:36,599 INFO  by.epam.port.util.HarborRunner [main] Конец обработки корабля 
+2016-06-14 22:37:36,599 INFO  by.epam.port.util.HarborRunner [main] Конец обработки корабля 
+2016-06-14 22:37:36,600 INFO  by.epam.port.util.HarborRunner [main] Конец обработки корабля 
+2016-06-14 22:37:46,601 INFO  by.epam.port.util.HarborRunner [main] Конец обработки корабля 
+2016-06-14 22:37:46,601 INFO  by.epam.port.util.HarborRunner [main] Раннер порта завершен 
+2016-06-14 22:37:46,601 INFO  by.epam.port.entity.Harbor [Thread-6] Корабль{№=5, емкость=80, разгрузка=0, загрузка=80} погрузка не выполнена 
+2016-06-14 22:37:46,601 INFO  by.epam.port.entity.Harbor [Thread-6] Корабль{№=5, емкость=80, разгрузка=0, загрузка=80} обработан успешно 
+2016-06-14 22:53:01,061 INFO  by.epam.port.util.Main [main] Парсер создан успешно 
+2016-06-14 22:53:01,066 INFO  by.epam.port.util.JsonParser [main] Емкость склада порта успешно прочитана 
+2016-06-14 22:53:01,066 INFO  by.epam.port.util.JsonParser [main] Количество пристань успешно прочитано 
+2016-06-14 22:53:01,067 INFO  by.epam.port.entity.Harbor [main] Морской порт не может быть создан 
+2016-06-14 22:53:01,084 INFO  by.epam.port.util.JsonParser [main] Корабли прочитаны 
+2016-06-14 22:53:01,103 INFO  by.epam.port.util.HarborRunner [main] Раннер порта запущен 
+2016-06-14 22:53:01,104 INFO  by.epam.port.util.HarborRunner [main] Начало обработки корабля 
+2016-06-14 22:53:01,104 INFO  by.epam.port.util.HarborRunner [main] Начало обработки корабля 
+2016-06-14 22:53:01,104 INFO  by.epam.port.util.HarborRunner [main] Начало обработки корабля 
+2016-06-14 22:53:01,105 INFO  by.epam.port.util.HarborRunner [main] Начало обработки корабля 
+2016-06-14 22:53:01,105 INFO  by.epam.port.util.HarborRunner [main] Начало обработки корабля 
+2016-06-14 22:53:01,105 INFO  by.epam.port.util.HarborRunner [main] Начало обработки корабля 
+2016-06-14 22:53:01,106 INFO  by.epam.port.entity.Harbor [Thread-2] Корабль{№=1, емкость=90, разгрузка=90, загрузка=50} разгрузка успешно завершена 
+2016-06-14 22:53:01,106 INFO  by.epam.port.entity.Harbor [Thread-3] Корабль{№=2, емкость=90, разгрузка=20, загрузка=90} разгрузка успешно завершена 
+2016-06-14 22:53:01,106 INFO  by.epam.port.entity.Harbor [Thread-2] Корабль{№=1, емкость=90, разгрузка=0, загрузка=50} погрузка успешно завершена 
+2016-06-14 22:53:01,106 INFO  by.epam.port.entity.Harbor [Thread-2] Корабль{№=1, емкость=90, разгрузка=0, загрузка=0} обработан успешно 
+2016-06-14 22:53:01,106 INFO  by.epam.port.entity.Harbor [Thread-3] Корабль{№=2, емкость=90, разгрузка=0, загрузка=90} погрузка успешно завершена 
+2016-06-14 22:53:01,107 INFO  by.epam.port.entity.Harbor [Thread-3] Корабль{№=2, емкость=90, разгрузка=0, загрузка=0} обработан успешно 
+2016-06-14 22:53:01,107 INFO  by.epam.port.entity.Harbor [Thread-1] Корабль{№=0, емкость=90, разгрузка=90, загрузка=80} разгрузка успешно завершена 
+2016-06-14 22:53:01,108 INFO  by.epam.port.entity.Harbor [Thread-1] Корабль{№=0, емкость=90, разгрузка=0, загрузка=80} погрузка успешно завершена 
+2016-06-14 22:53:01,109 INFO  by.epam.port.entity.Harbor [Thread-1] Корабль{№=0, емкость=90, разгрузка=0, загрузка=0} обработан успешно 
+2016-06-14 22:53:01,108 INFO  by.epam.port.entity.Harbor [Thread-4] Корабль{№=3, емкость=50, разгрузка=20, загрузка=40} разгрузка успешно завершена 
+2016-06-14 22:53:01,111 INFO  by.epam.port.util.HarborRunner [main] Конец обработки корабля 
+2016-06-14 22:53:01,111 INFO  by.epam.port.util.HarborRunner [main] Конец обработки корабля 
+2016-06-14 22:53:01,111 INFO  by.epam.port.util.HarborRunner [main] Конец обработки корабля 
+2016-06-14 22:53:01,113 INFO  by.epam.port.entity.Harbor [Thread-5] Корабль{№=4, емкость=70, разгрузка=30, загрузка=50} разгрузка успешно завершена 
+2016-06-14 22:53:01,119 INFO  by.epam.port.entity.Harbor [Thread-6] Корабль{№=5, емкость=80, разгрузка=70, загрузка=80} разгрузка успешно завершена 
+2016-06-14 22:53:01,119 INFO  by.epam.port.entity.Harbor [Thread-5] Корабль{№=4, емкость=70, разгрузка=0, загрузка=50} погрузка успешно завершена 
+2016-06-14 22:53:01,119 INFO  by.epam.port.entity.Harbor [Thread-4] Корабль{№=3, емкость=50, разгрузка=0, загрузка=40} погрузка успешно завершена 
+2016-06-14 22:53:01,120 INFO  by.epam.port.entity.Harbor [Thread-4] Корабль{№=3, емкость=50, разгрузка=0, загрузка=0} обработан успешно 
+2016-06-14 22:53:01,120 INFO  by.epam.port.entity.Harbor [Thread-5] Корабль{№=4, емкость=70, разгрузка=0, загрузка=0} обработан успешно 
+2016-06-14 22:53:01,120 INFO  by.epam.port.util.HarborRunner [main] Конец обработки корабля 
+2016-06-14 22:53:01,120 INFO  by.epam.port.util.HarborRunner [main] Конец обработки корабля 
+2016-06-14 22:53:11,120 INFO  by.epam.port.util.HarborRunner [main] Конец обработки корабля 
+2016-06-14 22:53:11,120 INFO  by.epam.port.entity.Harbor [Thread-6] Корабль{№=5, емкость=80, разгрузка=0, загрузка=80} погрузка не выполнена 
+2016-06-14 22:53:11,120 INFO  by.epam.port.util.HarborRunner [main] Раннер порта завершен 
+2016-06-14 22:53:11,120 INFO  by.epam.port.entity.Harbor [Thread-6] Корабль{№=5, емкость=80, разгрузка=0, загрузка=80} обработан успешно 
+2016-06-14 22:55:39,506 INFO  by.epam.port.util.JsonParser [main] Seaport capacity has been read successfully 
+2016-06-14 22:55:39,521 INFO  by.epam.port.util.JsonParser [main] Docks number has been read successfully 
+2016-06-14 22:55:39,523 INFO  by.epam.port.entity.Harbor [main] Seaport was not created 
+2016-06-14 22:55:39,527 INFO  by.epam.port.util.JsonParser [main] Ships have been read 
+2016-06-14 22:55:39,570 INFO  by.epam.port.util.HarborRunner [Time-limited test] Seaport runner is starting 
+2016-06-14 22:55:39,571 INFO  by.epam.port.util.HarborRunner [Time-limited test] Ship goes to harbor 
+2016-06-14 22:55:39,571 INFO  by.epam.port.util.HarborRunner [Time-limited test] Ship goes to harbor 
+2016-06-14 22:55:39,571 INFO  by.epam.port.entity.Harbor [Thread-1] Ship{id=0, capacity=90, unloading=90, loading=80} unloading successful 
+2016-06-14 22:55:39,571 INFO  by.epam.port.entity.Harbor [Thread-1] Ship{id=0, capacity=90, unloading=0, loading=80} loading successful 
+2016-06-14 22:55:39,571 INFO  by.epam.port.util.HarborRunner [Time-limited test] Ship goes to harbor 
+2016-06-14 22:55:39,571 INFO  by.epam.port.entity.Harbor [Thread-1] Ship{id=0, capacity=90, unloading=0, loading=0} handled successfully 
+2016-06-14 22:55:39,572 INFO  by.epam.port.util.HarborRunner [Time-limited test] Ship goes to harbor 
+2016-06-14 22:55:39,572 INFO  by.epam.port.util.HarborRunner [Time-limited test] Ship goes to harbor 
+2016-06-14 22:55:39,572 INFO  by.epam.port.util.HarborRunner [Time-limited test] Ship goes to harbor 
+2016-06-14 22:55:39,572 INFO  by.epam.port.util.HarborRunner [Time-limited test] Ship has finished 
+2016-06-14 22:55:39,573 INFO  by.epam.port.entity.Harbor [Thread-2] Ship{id=1, capacity=90, unloading=90, loading=50} unloading successful 
+2016-06-14 22:55:39,573 INFO  by.epam.port.entity.Harbor [Thread-2] Ship{id=1, capacity=90, unloading=0, loading=50} loading successful 
+2016-06-14 22:55:39,573 INFO  by.epam.port.entity.Harbor [Thread-2] Ship{id=1, capacity=90, unloading=0, loading=0} handled successfully 
+2016-06-14 22:55:39,573 INFO  by.epam.port.util.HarborRunner [Time-limited test] Ship has finished 
+2016-06-14 22:55:39,574 INFO  by.epam.port.entity.Harbor [Thread-3] Ship{id=2, capacity=90, unloading=20, loading=90} unloading successful 
+2016-06-14 22:55:39,575 INFO  by.epam.port.entity.Harbor [Thread-3] Ship{id=2, capacity=90, unloading=0, loading=90} loading successful 
+2016-06-14 22:55:39,575 INFO  by.epam.port.entity.Harbor [Thread-3] Ship{id=2, capacity=90, unloading=0, loading=0} handled successfully 
+2016-06-14 22:55:39,575 INFO  by.epam.port.entity.Harbor [Thread-4] Ship{id=3, capacity=50, unloading=20, loading=40} unloading successful 
+2016-06-14 22:55:39,575 INFO  by.epam.port.util.HarborRunner [Time-limited test] Ship has finished 
+2016-06-14 22:55:39,578 INFO  by.epam.port.entity.Harbor [Thread-5] Ship{id=4, capacity=70, unloading=30, loading=50} unloading successful 
+2016-06-14 22:55:39,594 INFO  by.epam.port.entity.Harbor [Thread-4] Ship{id=3, capacity=50, unloading=0, loading=40} loading successful 
+2016-06-14 22:55:39,594 INFO  by.epam.port.entity.Harbor [Thread-5] Ship{id=4, capacity=70, unloading=0, loading=50} loading successful 
+2016-06-14 22:55:39,594 INFO  by.epam.port.entity.Harbor [Thread-4] Ship{id=3, capacity=50, unloading=0, loading=0} handled successfully 
+2016-06-14 22:55:39,594 INFO  by.epam.port.entity.Harbor [Thread-5] Ship{id=4, capacity=70, unloading=0, loading=0} handled successfully 
+2016-06-14 22:55:39,594 INFO  by.epam.port.entity.Harbor [Thread-6] Ship{id=5, capacity=80, unloading=70, loading=80} unloading successful 
+2016-06-14 22:55:39,595 INFO  by.epam.port.util.HarborRunner [Time-limited test] Ship has finished 
+2016-06-14 22:55:39,595 INFO  by.epam.port.util.HarborRunner [Time-limited test] Ship has finished 
+2016-06-14 22:55:49,596 INFO  by.epam.port.util.HarborRunner [Time-limited test] Ship has finished 
+2016-06-14 22:55:49,597 INFO  by.epam.port.entity.Harbor [Thread-6] Ship{id=5, capacity=80, unloading=0, loading=80} loading was not performed 
+2016-06-14 22:55:49,597 INFO  by.epam.port.util.HarborRunner [Time-limited test] Seaport runner finished 
+2016-06-14 22:55:49,597 INFO  by.epam.port.entity.Harbor [Thread-6] Ship{id=5, capacity=80, unloading=0, loading=80} handled successfully 
+2016-06-14 23:06:58,578 INFO  by.epam.port.util.Main [main] Парсер создан успешно 
+2016-06-14 23:06:58,595 INFO  by.epam.port.util.JsonParser [main] Емкость склада порта успешно прочитана 
+2016-06-14 23:06:58,595 INFO  by.epam.port.util.JsonParser [main] Количество пристань успешно прочитано 
+2016-06-14 23:06:58,598 INFO  by.epam.port.entity.Harbor [main] Морской порт не может быть создан 
+2016-06-14 23:06:58,601 INFO  by.epam.port.util.JsonParser [main] Корабли прочитаны 
+2016-06-14 23:06:58,603 INFO  by.epam.port.util.HarborRunner [main] Раннер порта запущен 
+2016-06-14 23:06:58,603 INFO  by.epam.port.util.HarborRunner [main] Начало обработки корабля 
+2016-06-14 23:06:58,603 INFO  by.epam.port.util.HarborRunner [main] Начало обработки корабля 
+2016-06-14 23:06:58,604 INFO  by.epam.port.util.HarborRunner [main] Начало обработки корабля 
+2016-06-14 23:06:58,604 INFO  by.epam.port.util.HarborRunner [main] Начало обработки корабля 
+2016-06-14 23:06:58,604 INFO  by.epam.port.util.HarborRunner [main] Начало обработки корабля 
+2016-06-14 23:06:58,604 INFO  by.epam.port.util.HarborRunner [main] Начало обработки корабля 
+2016-06-14 23:06:58,611 INFO  by.epam.port.entity.Harbor [Thread-1] Корабль{№=0, емкость=90, разгрузка=90, загрузка=80} разгрузка успешно завершена 
+2016-06-14 23:06:58,612 INFO  by.epam.port.entity.Harbor [Thread-1] Корабль{№=0, емкость=90, разгрузка=0, загрузка=80} погрузка успешно завершена 
+2016-06-14 23:06:58,612 INFO  by.epam.port.entity.Harbor [Thread-1] Корабль{№=0, емкость=90, разгрузка=0, загрузка=0} обработан успешно 
+2016-06-14 23:06:58,613 INFO  by.epam.port.util.HarborRunner [main] Конец обработки корабля 
+2016-06-14 23:06:58,615 INFO  by.epam.port.entity.Harbor [Thread-2] Корабль{№=1, емкость=90, разгрузка=90, загрузка=50} разгрузка успешно завершена 
+2016-06-14 23:06:58,615 INFO  by.epam.port.entity.Harbor [Thread-2] Корабль{№=1, емкость=90, разгрузка=0, загрузка=50} погрузка успешно завершена 
+2016-06-14 23:06:58,615 INFO  by.epam.port.entity.Harbor [Thread-2] Корабль{№=1, емкость=90, разгрузка=0, загрузка=0} обработан успешно 
+2016-06-14 23:06:58,616 INFO  by.epam.port.util.HarborRunner [main] Конец обработки корабля 
+2016-06-14 23:06:58,616 INFO  by.epam.port.entity.Harbor [Thread-3] Корабль{№=2, емкость=90, разгрузка=20, загрузка=90} разгрузка успешно завершена 
+2016-06-14 23:06:58,616 INFO  by.epam.port.entity.Harbor [Thread-3] Корабль{№=2, емкость=90, разгрузка=0, загрузка=90} погрузка успешно завершена 
+2016-06-14 23:06:58,617 INFO  by.epam.port.entity.Harbor [Thread-5] Корабль{№=4, емкость=70, разгрузка=30, загрузка=50} разгрузка успешно завершена 
+2016-06-14 23:06:58,617 INFO  by.epam.port.entity.Harbor [Thread-3] Корабль{№=2, емкость=90, разгрузка=0, загрузка=0} обработан успешно 
+2016-06-14 23:06:58,616 INFO  by.epam.port.entity.Harbor [Thread-4] Корабль{№=3, емкость=50, разгрузка=20, загрузка=40} разгрузка успешно завершена 
+2016-06-14 23:06:58,617 INFO  by.epam.port.util.HarborRunner [main] Конец обработки корабля 
+2016-06-14 23:06:58,619 INFO  by.epam.port.entity.Harbor [Thread-6] Корабль{№=5, емкость=80, разгрузка=70, загрузка=80} разгрузка успешно завершена 
+2016-06-14 23:06:58,619 INFO  by.epam.port.entity.Harbor [Thread-4] Корабль{№=3, емкость=50, разгрузка=0, загрузка=40} погрузка успешно завершена 
+2016-06-14 23:06:58,619 INFO  by.epam.port.entity.Harbor [Thread-5] Корабль{№=4, емкость=70, разгрузка=0, загрузка=50} погрузка успешно завершена 
+2016-06-14 23:06:58,619 INFO  by.epam.port.entity.Harbor [Thread-5] Корабль{№=4, емкость=70, разгрузка=0, загрузка=0} обработан успешно 
+2016-06-14 23:06:58,619 INFO  by.epam.port.entity.Harbor [Thread-4] Корабль{№=3, емкость=50, разгрузка=0, загрузка=0} обработан успешно 
+2016-06-14 23:06:58,619 INFO  by.epam.port.util.HarborRunner [main] Конец обработки корабля 
+2016-06-14 23:06:58,619 INFO  by.epam.port.util.HarborRunner [main] Конец обработки корабля 
+2016-06-14 23:07:08,620 INFO  by.epam.port.util.HarborRunner [main] Конец обработки корабля 
+2016-06-14 23:07:08,620 INFO  by.epam.port.util.HarborRunner [main] Раннер порта завершен 
+2016-06-14 23:07:08,621 INFO  by.epam.port.entity.Harbor [Thread-6] Корабль{№=5, емкость=80, разгрузка=0, загрузка=80} погрузка не выполнена 
+2016-06-14 23:07:08,621 INFO  by.epam.port.entity.Harbor [Thread-6] Корабль{№=5, емкость=80, разгрузка=0, загрузка=80} обработан успешно 
